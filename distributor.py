@@ -5,8 +5,8 @@ class Order:
         self.discounted_order = discounted_order
 
 num_people = int(input("How many people ordered food?\n"))
-original_total = float(input("Original order total?\n"))
-discounted_total = float(input("How much was the discounted total?\n"))
+original_total = float(input("Original order total? (SUBTOTAL, the total without tax)\n"))
+discounted_total = float(input("How much was the discounted total? (TOTAL payment)\n"))
 tax = float(input("Tax?\n"))
 
 order_list = []
