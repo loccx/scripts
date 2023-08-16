@@ -14,7 +14,7 @@ pyautogui.PAUSE = 1
 
 # opens rstudio
 pyautogui.hotkey('r', 's', 'enter')
-pyautogui.PAUSE = 4
+pyautogui.PAUSE = 2
 
 # creates new file
 pyautogui.hotkey('command', 'shift', 'n')
