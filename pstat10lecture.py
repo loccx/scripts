@@ -7,6 +7,7 @@ import pyautogui
 import datetime
 
 lecture_num = input('What # lecture is it?\n')
+pyautogui.PAUSE = 0.5
 
 # opens spotlight search
 pyautogui.hotkey('command', 'space')
@@ -14,10 +15,10 @@ pyautogui.PAUSE = 1
 
 # opens rstudio
 pyautogui.hotkey('r', 's', 'enter')
-pyautogui.PAUSE = 2
+pyautogui.PAUSE = 4
 
 # creates new file
-pyautogui.hotkey('command', 'shift', 'n')
+pyautogui.hotkey('command', 'N')
 pyautogui.PAUSE = 0.5
 
 # saves new file
