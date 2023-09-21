@@ -1,3 +1,8 @@
+'''
+Distributes food cost between n people according to who ordered what
+
+'''
+
 class Order:
     def __init__(self, name, order, discounted_order):
         self.name = name
