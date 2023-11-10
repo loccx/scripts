@@ -1,5 +1,5 @@
 '''
-Each person pays 110% of their discounted order; each 10% someone pays is chunked out of my order total. My order is not displayed in the reciept (it will be suspiciously low)
+Each person pays 110% of their discounted order; each 10% someone pays is chunked out of my order total. My order is not displayed in the receipt (it will be suspiciously low)
 '''
 
 class Order:
@@ -34,12 +34,12 @@ for order in order_list:
         order.discounted_order -= subsidy
 
 print("|_____________________________|\n")
-print("|___________RECIEPT___________|\n")
+print("|___________RECEIPT___________|\n")
 print("|_____________________________|\n")
 for order in order_list:
     if order.name != 'key':
         print(order.name + ":", order.discounted_order)
         print("|-----------------------------|\n")
-print("|__________END_RECIEPT________|\n")
+print("|__________END_RECEIPT________|\n")
 print("|_____________________________|\n")
 print('Venmo: Kexing-Xu')
