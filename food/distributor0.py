@@ -20,7 +20,7 @@ for person in range(num_people):
     newOrder = Order('', 0, 0)
     newOrder.name = input("What is person " +  str(person + 1) + "'s name?\n")
     newOrder.order = float(input("How much was " + newOrder.name + "'s order?\n"))
-    newOrder.discounted_order = ((newOrder.order + tax / num_people) * discount)
+    newOrder.discounted_order = ((newOrder.order + tax * newOrder.order / (original_total + tax)) * discount)
     order_list.append(newOrder)
 
 print("|_____________________________|\n")
