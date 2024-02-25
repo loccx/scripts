@@ -10,5 +10,5 @@ for char in word:
     counter[char] += 1
 
 for entry in counter:
-    if counter[entry] > 1:
+    if counter[entry] >= 1:
         print(entry, ':', counter[entry])
