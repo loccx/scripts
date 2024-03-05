@@ -1,7 +1,7 @@
 CFLAGS = -Wall -std=gnu++20
 %: %.cpp
 	g++ $(CFLAGS) $< -o $(basename $@)
-	./$(basename $@)
+	./$(basename $@) < input.in
 	rm $(basename $@)
 
 # g++ -Wall -std=gnu++17
