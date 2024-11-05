@@ -1,11 +1,11 @@
-#include <iostream>
-#include <vector>
-#include <string>
+#include<iostream>
+#include<vector>
+#include<string>
 
 using namespace std;
 
-int main() {
-   int entity_count = 0;
+int main(){
+    int entity_count = 0;
     cout << "How many entities ordered?\n";
     cin >> entity_count;
 

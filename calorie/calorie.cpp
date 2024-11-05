@@ -1,8 +1,4 @@
-#include<algorithm>
-#include<iostream>
-#include<cmath>
-#include<ctime>
-#include<string>
+#include<bits/stdc++.h>
 
 #define endl '\n'
 #define fork(a,b) for(ll k=a;k<=b;k++)

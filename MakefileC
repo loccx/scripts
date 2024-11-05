@@ -1,5 +1,0 @@
-CFLAGS = -Wall -Wextra -Werror -std=c11
-%: %.c
-	gcc $(CFLAGS) $< -o $(basename $@)
-	./$(basename $@) < input.in
-	rm $(basename $@)

@@ -39,4 +39,4 @@ for order in order_list:
         print("|-----------------------------|\n")
 print("|__________END_RECEIPT________|\n")
 print("|_____________________________|\n")
-print('Venmo: Kexing-Xu')
+print('Venmo: locc_xu')
